@@ -1,2 +1,0 @@
-# quizella.github.io
-quiz
