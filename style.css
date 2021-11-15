@@ -1,0 +1,60 @@
+body {
+    font-family: 'Scheherazade New', serif;
+    font-size:20px;
+    background-color:rgb(248, 248, 197);
+}
+
+#quiz {
+    margin-left: 29%;
+    background: rgb(243, 163, 175);
+    padding: 10px 20px 10px 20px;
+    width: 600px;
+    border-radius: 20px;  
+    margin-top: -1515px; 
+    border:1px solid black; 
+}
+
+#button{
+    background:purple;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    color:#ff0880;
+    font-size:25px;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium';
+    transition-duration: 0.3s;
+    margin-top:15px;
+}
+
+#button:hover{
+    background:white;
+    border:1px solid rgb(110, 13, 110);
+    border-radius:20px;
+    border-width: 2px;
+    color:#ff0880;
+    cursor:pointer;
+}
+
+#after_submit {
+    visibility:hidden;
+    text-align:center;
+    margin-left: 29%;
+    margin-top:10px;
+    padding: 10px 20px 10px 20px;
+    width:600px;
+    border-radius: 20px;
+    font-size:25px;
+    background: rgb(178, 218, 36)
+}
+
+#picture{
+    width:300px;
+    height:330px;
+    
+}
+
+#mc:hover{
+    cursor:pointer;
+}
+

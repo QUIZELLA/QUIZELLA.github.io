@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            QUIZELLA
+        </title>
+        <link href="style.css" rel="stylesheet">
+       <link ref=link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet"> 
+       <script src="main.js"></script>
+    </head>
+    <body>
+        <h1><center>HEY! HOPE YOU ARE HAVING A GOOD DAY SO FAR...<br>PLEASE SELECT AN OPTION FROM EACH QUESTION AND PRESS SUBMIT TO KNOW YOUR PERSONALITY MATCH!</br></center></h1>
+           <img src="images/bts8.jpg" width="370px" align="right">
+        <p><img src="images/bts1.jpg" width="370px" ></p>
+        <p><img src="images/bts2.jpg"  width="370px" align="right"></p>
+        <p><img src="images/bts4.jpg" width="370px" ></p>
+        <p><img src="images/bts7.jpg" width="370px"  align="right"></p>
+        <p><img src="images/bts3.jpg" width="370px"></p>
+        <p><img src="images/bts5.jpg" width="370px"  align="right"></p>
+        <p><img src="images/bts6.jpg" width="370px" ></p>
+        <p><img src="images/bts10.jpg" width="370px"  align="right"></p>
+        <p><img src="images/bts9.jpg" width="370px" ></p>
+        
+        <form id="quiz" name="quiz">
+        
+            <p><b>Q1. WHAT IS YOUR FAVOURITE COLOUR?</b></p>
+            <input type="radio" id="mc" name ="question1" value="Blue">Blue<br>
+            <input type="radio" id="mc" name ="question1" value="Black">Black<br>
+            <input type="radio" id="mc" name ="question1" value="White">White<br>
+            <input type="radio" id="mc" name ="question1" value="Purple">Purple<br>
+            <input type="radio" id="mc" name ="question1" value="Green">Green<br>
+
+            <p><b>Q2.WHAT WOULD YOU LIKE TO DO IN YOUR FREE TIME?</b></p>
+            <input type="radio" id="mc" name ="question2" value="Read books">Read books<br>
+            <input type="radio" id="mc" name ="question2" value="Watch TV">Watch TV <br>
+            <input type="radio" id="mc" name ="question2" value="Play video game">Play video game<br>
+            <input type="radio" id="mc" name ="question2" value="Sleep">Sleep<br>
+            <input type="radio" id="mc" name ="question2" value="Listen music">Listen music<br>
+
+           <p><b>Q3.WHICH IS YOUR FAVOURITE SPORT FROM THE OPTIONS BELOW?</b></p>
+           <input type="radio" id="mc" name ="question3" value="Basketball">Basketball<br>
+           <input type="radio" id="mc" name ="question3" value="Football">Football<br>
+           <input type="radio" id="mc" name ="question3" value="Badminton">Badminton<br>
+           <input type="radio" id="mc" name ="question3" value="Table Tennis">Table Tennis<br>
+
+           <p><b>Q4.WHICH WORD FROM BELOW DESCRIBES YOU MORE?</b></p>
+           <input type="radio" id="mc" name ="question4" value="Enthusiastic">Enthusiastic<br>
+           <input type="radio" id="mc" name ="question4" value="Kind">Kind<br>
+           <input type="radio" id="mc" name ="question4" value="Funny">Funny<br>
+           <input type="radio" id="mc" name ="question4" value="Talented">Talented<br>
+           <input type="radio" id="mc" name ="question4" value="Hard-Working">Hard-Working<br>
+
+           <p><b>Q5.WHAT IS YOUR FAVOURITE SEASON?</b></p>
+           <input type="radio" id="mc" name ="question5" value="Summer">Summer<br>
+           <input type="radio" id="mc" name ="question5" value="Autumn">Autumn<br>
+           <input type="radio" id="mc" name ="question5" value="Spring">Spring<br>
+           <input type="radio" id="mc" name ="question5" value="Winter">Winter<br>
+
+            <input id="button" type="button" value="Submit" onclick="check();">
+         </form>
+        
+        <div id="after_submit">
+            <p id="name"></p>
+            <img id="picture" >
+             <p id="description"></p> 
+            
+         </div>
+         
+    </body>
+</html>  
